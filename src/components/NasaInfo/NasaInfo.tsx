@@ -9,7 +9,9 @@ interface NasaInfoProps {
 export default function NasaInfo({title, firstParagraph, secondParagraph, imageUrl}: NasaInfoProps) {
     return (
         <section className="nasa-card">
-            <h2 className="nasa-card-title">{title}</h2>
+            <h2 className="nasa-card-title">
+                {title}
+            </h2>
             <p className="nasa-card-text">
                 {firstParagraph}
             </p>
