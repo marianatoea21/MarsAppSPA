@@ -2,6 +2,7 @@ import nasaLogo from './assets/nasa-logo-3.png'
 import './App.css'
 import NasaInfo from "./components/NasaInfo/NasaInfo.tsx";
 import ClickCounter from "./components/ClickCounter/ClickCounter.tsx";
+import Component1 from "./components/Component1/Component1.tsx";
 
 function App() {
     let nasaTitle = "National Aeronautics and Space Administration"
@@ -17,6 +18,7 @@ function App() {
         />
 
         <ClickCounter/>
+        <Component1/>
       </section>
     </>
   )
