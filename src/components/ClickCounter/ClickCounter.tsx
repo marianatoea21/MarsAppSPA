@@ -17,7 +17,9 @@ export default function ClickCounter() {
             className="counter"
             onClick={() => setCount((prev) => prev + 1)}
         >
-            Count is {count}
+            <p>
+                Count is {count}
+            </p>
         </button>
     )
 }
