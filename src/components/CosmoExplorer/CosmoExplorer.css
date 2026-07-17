@@ -1,0 +1,67 @@
+﻿.cosmo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.cosmo-form {
+    background-color: #FFAECF;
+    border: 2px solid #EE1B81;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 80%;
+}
+
+.cosmo-form label {
+    color: #EE1B81;
+    font-weight: bold;
+}
+
+.cosmo-form input {
+    padding: 10px;
+    border: 2px solid #EE1B81;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #EE1B81;
+    background-color: #FFAECF;
+    border: 2px solid #EE1B81;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.cosmo-form button {
+    background-color: #EE1B81;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cosmo-result {
+    background-color: #FFAECF;
+    border: 2px solid #EE1B81;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: #EE1B81;
+}
+
+.cosmo-img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 5px;
+
+}
