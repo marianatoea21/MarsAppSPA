@@ -4,6 +4,7 @@ import NasaInfo from "./components/NasaInfo/NasaInfo.tsx";
 import ClickCounter from "./components/ClickCounter/ClickCounter.tsx";
 import Component1 from "./components/Component1/Component1.tsx";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import CosmoExplorer from "./components/CosmoExplorer/CosmoExplorer.tsx";
 
 function App() {
     let nasaTitle = "National Aeronautics and Space Administration"
@@ -14,7 +15,8 @@ function App() {
         <nav>
             <Link to="/about">About Nasa</Link> | {" "}
             <Link to="/clicker">Click Button</Link> | {" "}
-            <Link to="/cool-clicker">Cool Click Button</Link>
+            <Link to="/cool-clicker">Cool Click Button</Link> | {" "}
+            <Link to="/cosmo-explorer">Cosmo Explorer</Link>
         </nav>
 
         <Routes>
@@ -33,6 +35,11 @@ function App() {
 
             <Route path="/cool-clicker" element={
                 <ClickCounter />
+            }
+            />
+
+            <Route path="/cosmo-explorer" element={
+                <CosmoExplorer />
             }
             />
         </Routes>
